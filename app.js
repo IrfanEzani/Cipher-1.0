@@ -1,11 +1,9 @@
-function cipher(str) {
-  let result  = ""
-  const input = document.getElementById('input').value;
+/*function cipher() {
+  var input = document.getElementById('input').value;
+  var result = '';
 
-  if (input === "") return alert()
-
-  for (var i = 0 ; i < str.length; i++) {
-    let ciphered = str[i].charCodeAt()
+  for (var i = 0 ; i < input.length; i++) {
+    var ciphered = input[i].charCodeAt()
     //charCodeAt() == get number code from ASCII letter
     if (ciphered >= 65 && ciphered <= 77) {
       result += String.fromCharCode(ciphered+13)
@@ -14,9 +12,10 @@ function cipher(str) {
     } else if (ciphered >= 68 && ciphered <=90) {
       result += String.fromCharCode(ciphered-13)
     } else {
-      result += str[i]
+      result += input[i]
     }
-
   }
-   return result
+  document.getElementById('answer').value = result;
+  console.log(result);
 }
+*/

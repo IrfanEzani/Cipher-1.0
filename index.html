@@ -12,17 +12,32 @@
   <div class="container">
     <div class="content">
       <h1>Cipher 1.0</h1>
-      <p>Caesar-cipher based algorithm. Now you can send encrypted secret message to peoples.</p>
-<form action="">
-  <label for="inputtext">Input Text :</label>
-  <input type="text" id="input" pattern="/\w+/" maxlength="100" placeholder="Enter text here." onchange="cipher(str)" required>
-  <input type="button" value="Cipher" onclick="cipher(str)"> <br>
-  <label for="cipheredtext">Ciphered Text:</label>
-  <input type="text" id="answer" readonly>
-</form>
+      <p>Now you can send encrypted secret message to people.</p>
+
+      <div class="form-container">
+        <form name="cipher">
+          <h4>Encrypt Text</h4>
+          <label for="inputtext">Input Text :</label>
+          <textarea name="inputtext"></textarea>
+          <input type="submit" value="Encrypt"> <br>
+          <label for="cipheredtext">Ciphered Text:</label>
+          <textarea name="answer"></textarea>
+        </form>
+
+        <form name="decipher">
+          <h4>Decrypt Text</h4>
+          <label for="inputtext">Input Text :</label>
+          <textarea name="inputtext"></textarea>
+          <input type="submit" value="Decrypt"> <br>
+          <label for="cipheredtext">Decrypted Text:</label>
+          <textarea name="answer"></textarea>
+        </form>
+      </div>
+
     </div>
   </div>
 
-  <script src="app.jss" charset="utf-8"></script>
+  <script src="app.js" charset="utf-8"></script>
+  <script src="new.js" charset="utf-8"></script>
 </body>
 </html>

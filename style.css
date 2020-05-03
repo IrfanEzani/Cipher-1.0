@@ -25,8 +25,18 @@ body {
 }
 
 .content form {
+  margin : 0 10px;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   background: rgb(122, 239, 240);
   padding: 10px;
+}
+
+.form-container {
+  display: flex;
+}
+
+.form-container form {
+
 }
