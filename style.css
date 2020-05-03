@@ -1,42 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background: lightblue;
+  background: url('dow.jpg') center no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  overflow-y: hidden;
-  font-family:monospace;
+  height: 100vh;
+  font-family:'Oswald', sans-serif;
+  color : white;
+  overflow: hidden;
 }
 
 .container {
-  height: auto;
-  width: auto;
+  background: rgba(0, 0, 0, 0.7);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  padding: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .content {
-  border : 2px solid black;
   border-radius: 25px;
-  padding: 1rem;
+  padding: 0.8rem;
+  margin: 1rem;
   text-align: center;
-  background: rgb(85, 160, 230);
+  background: none;
 }
 
-.content form {
-  margin : 0 10px;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  background: rgb(122, 239, 240);
-  padding: 10px;
+.content h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  text-shadow: 3px 3px rgb(179, 29, 29);
+  letter-spacing: 2px;
 }
+
+.content h3 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.content h3 span {
+  color : rgb(179, 29, 29);
+}
+
+.content p {
+font-weight: lighter;
+letter-spacing: 5px;
+}
+
 
 .form-container {
   display: flex;
+  margin: 1rem;
 }
 
 .form-container form {
+  height: 40vh;
+  width: 30vw;
+display: flex;
+flex-direction: column;
+margin: 10px;
+padding: 10px;
+background: rgba(255, 0, 0, 0.5);
+border-radius: 5px;
+}
 
+.form-container form h4 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.form-container form label {
+  text-align: left;
+  padding: 5px 0;
+}
+
+.form-container form .btn {
+  background: none;
+  border : 1px solid white;
+  color : white;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  height: 40px;
+  padding: 2px 0;
+  letter-spacing: 1px;
+}
+
+.form-container form .btn:hover {
+  background: white;
+  color:rgb(179, 29, 29);
+  cursor: pointer;
+  transition: 0.5s all ease;
+}
+
+textarea {
+  font-family: 'Oswald',sans-serif;
+  resize: none;
+  overflow: auto;
+  margin-bottom: 5px;
 }
