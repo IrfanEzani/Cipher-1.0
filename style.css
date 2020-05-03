@@ -1,0 +1,32 @@
+body {
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow-y: hidden;
+  font-family:monospace;
+}
+
+.container {
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  border : 2px solid black;
+  border-radius: 25px;
+  padding: 1rem;
+  text-align: center;
+  background: rgb(85, 160, 230);
+}
+
+.content form {
+  display: flex;
+  flex-direction: column;
+  background: rgb(122, 239, 240);
+  padding: 10px;
+}
