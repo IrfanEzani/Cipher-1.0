@@ -4,7 +4,8 @@
 }
 
 body {
-  background: url('dow.jpg') center no-repeat;
+  background: url('dow.jpg') no-repeat;
+  background-position: 10px right;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -110,4 +111,8 @@ textarea {
   resize: none;
   overflow: auto;
   margin-bottom: 5px;
+}
+
+p.closure {
+  transform: translateY(2rem);
 }
