@@ -76,12 +76,14 @@ border-radius: 5px;
 }
 
 .form-container form h4 {
+  font-size: 24px;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: bold;
 }
 
 .form-container form label {
+  font-size: 1.5rem;
   text-align: left;
   padding: 5px 0;
 }
@@ -93,7 +95,7 @@ border-radius: 5px;
   text-transform: uppercase;
   font-family: "Oswald", sans-serif;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 1rem;
   height: 40px;
   padding: 2px 0;
   letter-spacing: 1px;
